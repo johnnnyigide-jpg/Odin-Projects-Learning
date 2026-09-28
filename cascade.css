@@ -1,14 +1,37 @@
+/*rule 1 */
+.main .list {
+    color:blue
+}
+/*rule 2 */
 .subsection {
     color: blue;
 }
 
-.main .list{
+
+/*rule 1 */
+#subsections{
     color: red;
+}
+/*rule 2 */
+.main.list{
+    color: purple;
 }
 
+
+/*rule 1 */
 #subsection{
+    background-color: yellow;
     color: blue;
 }
-.main.list{
-    color: red;
+/*rule 2 */
+.main #subsection{
+color: red;
+}
+
+
+*{
+    color: black;
+}
+p{
+background-color: yellow;
 }
