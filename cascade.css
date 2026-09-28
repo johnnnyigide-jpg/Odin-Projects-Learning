@@ -5,3 +5,10 @@
 .main .list{
     color: red;
 }
+
+#subsection{
+    color: blue;
+}
+.main.list{
+    color: red;
+}
