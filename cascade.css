@@ -28,10 +28,20 @@
 color: red;
 }
 
-
+/*rule 1 */
 *{
     color: black;
 }
+/*rule 2 */
 p{
-background-color: yellow;
+background-color: orange;
 }
+
+
+/*rule 1 */
+#parent {
+    color:red
+}
+.child {
+    color:blue;
+} 
